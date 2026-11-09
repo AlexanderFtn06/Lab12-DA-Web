@@ -1,0 +1,16 @@
+server:
+  port: 9092
+
+spring:
+  datasource:
+    url: jdbc:mysql://servidor/bd_categoria
+    username: root
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+empresa:
+  ambiente: produccion
